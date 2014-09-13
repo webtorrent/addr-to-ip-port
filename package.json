@@ -1,6 +1,6 @@
 {
   "name": "addr-to-ip-port",
-  "description": "Parse a torrent identifier (magnet uri, .torrent file, info hash)",
+  "description": "Convert an 'address:port' string to an array [address:string, port:number]",
   "version": "1.0.0",
   "author": "Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)",
   "bugs": {
@@ -12,13 +12,14 @@
   },
   "homepage": "https://github.com/feross/addr-to-ip-port",
   "keywords": [
-    "torrent",
-    "parse torrent",
-    "read torrent",
-    ".torrent",
-    "peer-to-peer",
-    "bittorrent",
-    "bittorrent",
+    "convert",
+    "address",
+    "port",
+    "cache",
+    "string",
+    "array",
+    "ip",
+    "addr to ip port",
     "webtorrent"
   ],
   "license": "MIT",
