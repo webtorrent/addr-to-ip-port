@@ -11,6 +11,11 @@ module.exports = function addrToIPPort (addr) {
   return cache[addr]
 }
 
-module.exports.reset = function () {
+module.exports.reset = function reset () {
   cache = {}
 }
+
+// reset cache every hour so it will not grow to consume all memory
+// in long-running processes (like in server dameons)
+var interval = setInterval(module.exports.reset, 60 * 60 * 1000)
+if (interval.unref) interval.unref()
