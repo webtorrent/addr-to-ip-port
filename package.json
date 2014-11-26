@@ -1,7 +1,7 @@
 {
   "name": "addr-to-ip-port",
   "description": "Convert an 'address:port' string to an array [address:string, port:number]",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)",
   "bugs": {
     "url": "https://github.com/feross/addr-to-ip-port/issues"
