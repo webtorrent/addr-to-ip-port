@@ -9,3 +9,7 @@ module.exports = function addrToIPPort (addr) {
   }
   return cache[addr]
 }
+
+module.exports.reset = function () {
+  cache = {}
+}

@@ -8,6 +8,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "benchmark": "^1.0.0",
     "tape": "2.x"
   },
   "homepage": "https://github.com/feross/addr-to-ip-port",
@@ -29,7 +30,8 @@
     "url": "git://github.com/feross/addr-to-ip-port.git"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "tape test/*.js",
+    "perf": "node perf/basic.js"
   },
   "testling": {
     "files": "test/*.js",
