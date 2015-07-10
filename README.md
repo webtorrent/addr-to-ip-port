@@ -1,4 +1,4 @@
-# addr-to-ip-port [![travis](https://img.shields.io/travis/feross/addr-to-ip-port.svg)](https://travis-ci.org/feross/addr-to-ip-port) [![npm](https://img.shields.io/npm/v/addr-to-ip-port.svg)](https://npmjs.org/package/addr-to-ip-port) [![downloads](https://img.shields.io/npm/dm/addr-to-ip-port.svg)](https://npmjs.org/package/addr-to-ip-port) [![gittip](https://img.shields.io/gittip/feross.svg)](https://www.gittip.com/feross/)
+# addr-to-ip-port [![travis](https://img.shields.io/travis/feross/addr-to-ip-port.svg)](https://travis-ci.org/feross/addr-to-ip-port) [![npm](https://img.shields.io/npm/v/addr-to-ip-port.svg)](https://npmjs.org/package/addr-to-ip-port) [![downloads](https://img.shields.io/npm/dm/addr-to-ip-port.svg)](https://npmjs.org/package/addr-to-ip-port)
 
 #### Convert an "address:port" string to an array [address:string, port:number]
 
