@@ -11,8 +11,6 @@
 
 #### Convert an "address:port" string to an array [address:string, port:number]
 
-[![browser support](https://ci.testling.com/feross/addr-to-ip-port.png)](https://ci.testling.com/feross/addr-to-ip-port)
-
 Uses a cache to prevent excessive array allocations and GC.
 
 Works in node and the browser. This module is used by [WebTorrent](http://webtorrent.io)!
