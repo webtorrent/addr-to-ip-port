@@ -1,4 +1,13 @@
-# addr-to-ip-port [![travis](https://img.shields.io/travis/feross/addr-to-ip-port/master.svg)](https://travis-ci.org/feross/addr-to-ip-port) [![npm](https://img.shields.io/npm/v/addr-to-ip-port.svg)](https://npmjs.org/package/addr-to-ip-port) [![downloads](https://img.shields.io/npm/dm/addr-to-ip-port.svg)](https://npmjs.org/package/addr-to-ip-port) [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+# addr-to-ip-port [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
+
+[travis-image]: https://img.shields.io/travis/feross/addr-to-ip-port/master.svg
+[travis-url]: https://travis-ci.org/feross/addr-to-ip-port
+[npm-image]: https://img.shields.io/npm/v/addr-to-ip-port.svg
+[npm-url]: https://npmjs.org/package/addr-to-ip-port
+[downloads-image]: https://img.shields.io/npm/dm/addr-to-ip-port.svg
+[downloads-url]: https://npmjs.org/package/addr-to-ip-port
+[standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
+[standard-url]: https://standardjs.com
 
 #### Convert an "address:port" string to an array [address:string, port:number]
 
