@@ -8,7 +8,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "benchmark": "^1.0.0",
+    "benchmark": "^2.1.4",
     "tape": "^4.0.0"
   },
   "homepage": "https://github.com/feross/addr-to-ip-port",
