@@ -1,7 +1,7 @@
 # addr-to-ip-port [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
-[travis-image]: https://img.shields.io/travis/feross/addr-to-ip-port/master.svg
-[travis-url]: https://travis-ci.org/feross/addr-to-ip-port
+[travis-image]: https://img.shields.io/travis/webtorrent/addr-to-ip-port/master.svg
+[travis-url]: https://travis-ci.org/webtorrent/addr-to-ip-port
 [npm-image]: https://img.shields.io/npm/v/addr-to-ip-port.svg
 [npm-url]: https://npmjs.org/package/addr-to-ip-port
 [downloads-image]: https://img.shields.io/npm/dm/addr-to-ip-port.svg
@@ -32,4 +32,4 @@ addrToIPPort('1.2.3.4:8000') //=> ['1.2.3.4', 8000] (returns the cached object)
 
 ### license
 
-MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
+MIT. Copyright (c) [Feross Aboukhadijeh](https://feross.org) and [WebTorrent, LLC](https://webtorrent.io).
