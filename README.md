@@ -1,5 +1,7 @@
 # addr-to-ip-port [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/feross/addr-to-ip-port.svg)](https://greenkeeper.io/)
+
 [travis-image]: https://img.shields.io/travis/feross/addr-to-ip-port/master.svg
 [travis-url]: https://travis-ci.org/feross/addr-to-ip-port
 [npm-image]: https://img.shields.io/npm/v/addr-to-ip-port.svg
