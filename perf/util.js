@@ -1,13 +1,13 @@
-var benchmark = require('benchmark')
+const benchmark = require('benchmark')
 
-exports.suite = function () {
-  var suite = new benchmark.Suite()
-  process.nextTick(function () {
+exports.suite = () => {
+  const suite = new benchmark.Suite()
+  process.nextTick(() => {
     suite
-      .on('error', function (event) {
+      .on('error', event => {
         console.error(event.target.error.stack)
       })
-      .on('cycle', function (event) {
+      .on('cycle', event => {
         console.log(String(event.target))
       })
       // .on('complete', function () {

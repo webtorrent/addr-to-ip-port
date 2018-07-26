@@ -24,7 +24,7 @@ npm install addr-to-ip-port
 ### usage
 
 ```js
-var addrToIPPort = require('addr-to-ip-port')
+const addrToIPPort = require('addr-to-ip-port')
 
 addrToIPPort('1.2.3.4:8000') //=> ['1.2.3.4', 8000]
 addrToIPPort('1.2.3.4:8000') //=> ['1.2.3.4', 8000] (returns the cached object)

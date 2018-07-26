@@ -1,16 +1,16 @@
-var addrToIPPort = require('../')
-var util = require('./util')
-var suite = util.suite()
+const addrToIPPort = require('../')
+const util = require('./util')
+const suite = util.suite()
 
-var addrs = []
-for (var i = 1; i < 65536; i++) {
-  addrs.push('127.0.0.1:' + i)
+const addrs = []
+for (let i = 1; i < 65536; i++) {
+  addrs.push(`127.0.0.1:${i}`)
 }
 
 suite
-  .add('addr-to-ip-port', function () {
+  .add('addr-to-ip-port', () => {
     addrToIPPort.reset()
-    var ipPort
+    let ipPort
     for (var i = 0, len = addrs.length; i < len; i++) {
       ipPort = addrToIPPort(addrs[i])
     }
