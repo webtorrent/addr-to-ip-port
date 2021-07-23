@@ -1,7 +1,7 @@
-# addr-to-ip-port [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
+# addr-to-ip-port [![ci][ci-image]][ci-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
-[travis-image]: https://img.shields.io/travis/webtorrent/addr-to-ip-port/master.svg
-[travis-url]: https://travis-ci.org/webtorrent/addr-to-ip-port
+[ci-image]: https://github.com/webtorrent/addr-to-ip-port/actions/workflows/ci.yml/badge.svg
+[ci-url]: https://github.com/webtorrent/addr-to-ip-port/actions/workflows/ci.yml
 [npm-image]: https://img.shields.io/npm/v/addr-to-ip-port.svg
 [npm-url]: https://npmjs.org/package/addr-to-ip-port
 [downloads-image]: https://img.shields.io/npm/dm/addr-to-ip-port.svg
