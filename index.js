@@ -1,23 +1,15 @@
-const ADDR_RE = /^\[?([^\]]+)\]?:(\d+)$/ // ipv4/ipv6/hostname + port
+const ADDR_RE = /^\[?([^\]]+)]?:(\d+)$/ // ipv4/ipv6/hostname + port
 
-let cache = {}
+let cache = new Map()
 
 // reset cache when it gets to 100,000 elements (~ 600KB of ipv4 addresses)
 // so it will not grow to consume all memory in long-running processes
-let size = 0
-
 module.exports = function addrToIPPort (addr) {
-  if (size === 100000) module.exports.reset()
-  if (!cache[addr]) {
+  if (cache.size === 100000) cache.clear()
+  if (!cache.has(addr)) {
     const m = ADDR_RE.exec(addr)
     if (!m) throw new Error(`invalid addr: ${addr}`)
-    cache[addr] = [ m[1], Number(m[2]) ]
-    size += 1
+    cache.set(addr, [ m[1], Number(m[2]) ])
   }
-  return cache[addr]
-}
-
-module.exports.reset = function reset () {
-  cache = {}
-  size = 0
+  return cache.get(addr)
 }
