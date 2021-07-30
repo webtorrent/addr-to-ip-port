@@ -1,7 +1,7 @@
 {
   "name": "addr-to-ip-port",
   "description": "Convert an 'address:port' string to an array [address:string, port:number]",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "author": {
     "name": "WebTorrent, LLC",
     "email": "feross@webtorrent.io",
