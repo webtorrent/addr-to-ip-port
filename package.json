@@ -15,7 +15,7 @@
     "@webtorrent/semantic-release-config": "1.0.7",
     "benchmark": "2.1.4",
     "semantic-release": "17.4.7",
-    "tape": "5.3.1"
+    "tape": "5.5.2"
   },
   "homepage": "https://github.com/webtorrent/addr-to-ip-port",
   "keywords": [
