@@ -4,7 +4,7 @@ let cache = new Map()
 
 // reset cache when it gets to 100,000 elements (~ 600KB of ipv4 addresses)
 // so it will not grow to consume all memory in long-running processes
-module.exports = function addrToIPPort (addr) {
+export default function addrToIPPort (addr) {
   if (cache.size === 100000) cache.clear()
   if (!cache.has(addr)) {
     const m = ADDR_RE.exec(addr)
