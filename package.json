@@ -13,7 +13,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@webtorrent/semantic-release-config": "1.0.7",
+    "@webtorrent/semantic-release-config": "1.0.8",
     "benchmark": "2.1.4",
     "semantic-release": "19.0.5",
     "tape": "5.5.3"
