@@ -1,3 +1,35 @@
+# [2.0.0](https://github.com/webtorrent/addr-to-ip-port/compare/v1.5.4...v2.0.0) (2022-11-16)
+
+
+### chore
+
+* switch to ESM ([#21](https://github.com/webtorrent/addr-to-ip-port/issues/21)) ([104d222](https://github.com/webtorrent/addr-to-ip-port/commit/104d222b18a21d33568c0a73a4623c55a69d2ddb))
+
+
+### BREAKING CHANGES
+
+* ESM only
+
+* refactor: update to import/export syntax
+
+Signed-off-by: Lakshya Singh <lakshay.singh1108@gmail.com>
+
+* chore: update package.json for modules and deps
+
+- define exports, nodejs version
+- update critical deps
+Signed-off-by: Lakshya Singh <lakshay.singh1108@gmail.com>
+
+* docs: update readme for using esm
+
+Signed-off-by: Lakshya Singh <lakshay.singh1108@gmail.com>
+
+* Update package.json
+
+Signed-off-by: Lakshya Singh <lakshay.singh1108@gmail.com>
+Co-authored-by: Diego Rodríguez Baquero <github@diegorbaquero.com>
+* ESM only
+
 ## [1.5.4](https://github.com/webtorrent/addr-to-ip-port/compare/v1.5.3...v1.5.4) (2021-07-30)
 
 
