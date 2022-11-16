@@ -1,5 +1,5 @@
-const addrToIPPort = require('../')
-const test = require('tape')
+import test from 'tape'
+import addrToIPPort from '../index.js'
 
 test('Basic tests', t => {
   t.deepEqual(addrToIPPort('1.2.3.4:1000'), [ '1.2.3.4', 1000 ])

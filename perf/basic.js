@@ -1,5 +1,6 @@
-const addrToIPPort = require('../')
-const util = require('./util')
+import addrToIPPort from '../index.js'
+import util from './util.js'
+
 const suite = util.suite()
 
 // Around 262k addresses to cause 2 resets

@@ -1,4 +1,4 @@
-const benchmark = require('benchmark')
+import benchmark from 'benchmark';
 
 exports.suite = () => {
   const suite = new benchmark.Suite()
