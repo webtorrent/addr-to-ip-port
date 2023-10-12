@@ -16,7 +16,7 @@
     "@webtorrent/semantic-release-config": "1.0.10",
     "benchmark": "2.1.4",
     "semantic-release": "21.1.2",
-    "tape": "5.7.0"
+    "tape": "5.7.1"
   },
   "engines": {
     "node": ">=12.20.0"
